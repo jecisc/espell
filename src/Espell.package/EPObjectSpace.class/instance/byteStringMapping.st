@@ -1,3 +1,0 @@
-mappings
-byteStringMapping
-	^byteStringMapping

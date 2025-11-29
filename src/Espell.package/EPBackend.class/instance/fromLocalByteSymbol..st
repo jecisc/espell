@@ -1,4 +1,0 @@
-converting
-fromLocalByteSymbol: aByteSymbol
-
-	self subclassResponsibility

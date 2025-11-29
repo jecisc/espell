@@ -1,3 +1,0 @@
-as yet unclassified
-initializeTempsInStackOfContext: anEPContextMirror 
-	self subclassResponsibility.

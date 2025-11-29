@@ -1,3 +1,0 @@
-primitive-configuration
-numberedPrimitives
-	^numberedPrimitives

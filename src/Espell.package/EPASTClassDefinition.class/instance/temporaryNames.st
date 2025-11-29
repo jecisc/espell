@@ -1,4 +1,0 @@
-accessing
-temporaryNames
-	
-	^ message temporaryNames

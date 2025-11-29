@@ -1,4 +1,0 @@
-special objects
-fullBlockClass: aClass
-
-	

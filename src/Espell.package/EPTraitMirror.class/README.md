@@ -1,1 +1,0 @@
-I am a trait mirror object providing basic operations to work on trait objects inside an object space.

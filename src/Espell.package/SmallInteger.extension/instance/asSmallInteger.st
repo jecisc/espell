@@ -1,4 +1,0 @@
-*Espell-Extensions
-asSmallInteger
-	
-	^ self

@@ -1,4 +1,0 @@
-accessing
-localClass
-
-	self subclassResponsibility

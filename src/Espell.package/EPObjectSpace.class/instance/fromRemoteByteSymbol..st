@@ -1,3 +1,0 @@
-transformations
-fromRemoteByteSymbol: aRemoteByteSymbol
-	^byteSymbolMapping fromRemote: aRemoteByteSymbol

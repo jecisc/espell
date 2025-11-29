@@ -1,4 +1,0 @@
-printing
-formattedCode
-
-	^ message formattedCode

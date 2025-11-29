@@ -1,3 +1,0 @@
-mappings
-methodPropertiesMapping
-	^methodPropertiesMapping

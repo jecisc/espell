@@ -1,3 +1,0 @@
-public
-installSymbol: aRemoteSymbol
-	self subclassResponsibility

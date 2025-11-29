@@ -1,4 +1,0 @@
-transformations
-fromLocalPositiveInteger: aPositiveInteger
-
-	^ backend fromLocalPositiveInteger: aPositiveInteger

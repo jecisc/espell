@@ -1,1 +1,0 @@
-I am a mirror on a process object providing basic process operations.

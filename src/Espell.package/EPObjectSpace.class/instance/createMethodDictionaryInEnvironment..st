@@ -1,4 +1,0 @@
-transformations
-createMethodDictionaryInEnvironment: anEnvironment
-
-	^self createMethodDictionary: 32 inEnvironment: anEnvironment

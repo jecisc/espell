@@ -1,3 +1,0 @@
-accessing
-homeContext
-	self subclassResponsibility
