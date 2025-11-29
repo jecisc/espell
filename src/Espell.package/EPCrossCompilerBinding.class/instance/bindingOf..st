@@ -5,7 +5,7 @@ bindingOf: aString
 		ifTrue: [ self assert: environment notNil.
 			^ EPClassVariableBinding new
 				name: aString asSymbol
-					ownerName: class theNonMetaClass name
+					ownerName: class instanceSide name
 					objectSpace: environment;
 				yourself ].
 	class sharedPools
