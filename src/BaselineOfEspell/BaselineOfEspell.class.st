@@ -1,7 +1,7 @@
 Class {
 	#name : #BaselineOfEspell,
 	#superclass : #BaselineOf,
-	#category : 'BaselineOfEspell'
+	#category : #BaselineOfEspell
 }
 
 { #category : #'development support' }
@@ -88,7 +88,7 @@ BaselineOfEspell >> baseline: spec [
 				baseline: 'VMMaker'
 				with: [ 
 					spec
-						repository: 'github://pharo-project/pharo-vm:1b23b4382f6244b6ae32fbe87589a9451702c8ee/smalltalksrc' ].
+						repository: 'github://pharo-project/pharo-vm:v9.0.21/smalltalksrc' ].
 
 			spec package: 'AST-Interpreter-Core'.
 			spec package: 'AST-Interpreter-Extension' with: [ spec requires: #( 'AST-Interpreter-Core' ) ].
