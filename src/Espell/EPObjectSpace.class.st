@@ -27,16 +27,8 @@ Class {
 		'backend',
 		'mustRebuildSpecialObjectsArray'
 	],
-	#category : 'Espell-HighLevel'
+	#category : #'Espell-HighLevel'
 }
-
-{ #category : #'instance-creation' }
-EPObjectSpace class >> onOzVM [
-	
-	^ self new
-		backend: EPOzVMBackend new;
-		yourself
-]
 
 { #category : #'well known objects' }
 EPObjectSpace >> arrayWithAll: elements [

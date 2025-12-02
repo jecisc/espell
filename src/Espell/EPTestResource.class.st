@@ -5,7 +5,7 @@ Class {
 		'imagesDirectory',
 		'objectSpace'
 	],
-	#category : 'Espell-Tests'
+	#category : #'Espell-Tests'
 }
 
 { #category : #running }
@@ -46,7 +46,7 @@ EPTestResource >> setUp [
 		readFrom: (imagesDirectory / 'latest' , 'zip');
 		extractAllTo: imagesDirectory.
 		
-	objectSpace := EPObjectSpace onOzVM.
+	objectSpace := EPObjectSpace onSimulatedBackend.
 	objectSpace loadImage: self imageFileName
 ]
 
