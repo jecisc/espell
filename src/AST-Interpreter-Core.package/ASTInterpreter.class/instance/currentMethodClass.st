@@ -1,3 +1,0 @@
-accessing
-currentMethodClass
-	^ context methodClass

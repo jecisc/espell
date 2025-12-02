@@ -1,4 +1,0 @@
-actions
-terminate
-
-	self suspend.

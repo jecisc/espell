@@ -1,4 +1,0 @@
-accessing
-closure
-
-	^ closure

@@ -1,4 +1,0 @@
-accessing
-objectSpace
-	
-	^ evaluator objectSpace

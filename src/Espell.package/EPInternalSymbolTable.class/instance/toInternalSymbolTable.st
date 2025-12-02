@@ -1,4 +1,0 @@
-accessing
-toInternalSymbolTable
-	
-	^ self

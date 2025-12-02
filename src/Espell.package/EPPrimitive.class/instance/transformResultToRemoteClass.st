@@ -1,4 +1,0 @@
-decorating
-transformResultToRemoteClass
-
-	^EPResultToRemoteClassPrimitiveDecorator decorate: self

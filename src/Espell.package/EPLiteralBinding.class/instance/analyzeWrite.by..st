@@ -1,2 +1,0 @@
-analyzing
-analyzeWrite: aVariableNode by: aSemanticAnalyzer

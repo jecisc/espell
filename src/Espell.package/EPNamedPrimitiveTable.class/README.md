@@ -1,1 +1,0 @@
-I am a collection of named primitives used for easily index them.

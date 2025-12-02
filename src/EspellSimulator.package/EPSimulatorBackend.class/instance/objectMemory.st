@@ -1,4 +1,0 @@
-accessing
-objectMemory
-	
-	^ simulator objectMemory

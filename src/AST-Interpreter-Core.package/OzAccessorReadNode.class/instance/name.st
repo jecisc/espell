@@ -1,4 +1,0 @@
-executing
-name
-
-	^ variableNode name

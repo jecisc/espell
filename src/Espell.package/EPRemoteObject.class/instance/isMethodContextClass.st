@@ -1,4 +1,0 @@
-testing
-isMethodContextClass
-
-	^ mirror isMethodContextClass

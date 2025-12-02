@@ -1,4 +1,0 @@
-accessing
-cachedSymbols
-	
-	^ cache keys

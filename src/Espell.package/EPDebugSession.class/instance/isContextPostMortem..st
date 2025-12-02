@@ -1,4 +1,0 @@
-testing
-isContextPostMortem: anAIMethodContext 
-	
-	^ false

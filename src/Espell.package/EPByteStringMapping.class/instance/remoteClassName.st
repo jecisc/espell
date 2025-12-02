@@ -1,4 +1,0 @@
-accessing
-remoteClassName
-
-	^objectSpace worldConfiguration stringClassName

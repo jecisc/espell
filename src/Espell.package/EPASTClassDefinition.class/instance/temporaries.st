@@ -1,4 +1,0 @@
-accessing
-temporaries
-	
-	^ message temporaries

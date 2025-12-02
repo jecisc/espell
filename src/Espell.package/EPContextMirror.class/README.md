@@ -1,1 +1,0 @@
-I am a context mirror object providing basic operations to work on context objects inside an object space. I provide operations to manipulate the stack and the execution of a method, like setting the program counter and temporary variables.

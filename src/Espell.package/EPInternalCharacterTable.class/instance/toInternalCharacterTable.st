@@ -1,4 +1,0 @@
-converting
-toInternalCharacterTable
-	
-	^ self

@@ -1,3 +1,0 @@
-continuation
-die
-	currentExecutedNode := nil

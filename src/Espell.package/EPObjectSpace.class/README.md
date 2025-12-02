@@ -1,1 +1,0 @@
-I am an object space, defining the basic API of "how to interact with an image"

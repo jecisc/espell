@@ -1,3 +1,0 @@
-as yet unclassified
-headerOfCompiledMethod: anEPSimulatorAddressHandle 
-	self subclassResponsibility

@@ -1,4 +1,0 @@
-decorating
-transformArgumentsToRemoteLiteral
-
-	^EPArgumentsToLocalLiteralPrimitiveDecorator decorate: self

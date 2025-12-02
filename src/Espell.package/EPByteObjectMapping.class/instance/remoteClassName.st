@@ -1,3 +1,0 @@
-accessing
-remoteClassName
-	self subclassResponsibility

@@ -1,4 +1,0 @@
-converting
-asClassIndexHandle
-	
-	self subclassResponsibility

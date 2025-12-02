@@ -1,3 +1,0 @@
-compatibility layer
-contextTag
-	^ self

@@ -1,4 +1,0 @@
-execution
-postProcessResult: aResult
-	
-	^aResult
