@@ -7,7 +7,7 @@ Class {
 	#instVars : [
 		'decoree'
 	],
-	#category : 'Espell-LowLevel-Primitives'
+	#category : #'Espell-LowLevel-Primitives'
 }
 
 { #category : #'instance creation' }
@@ -44,6 +44,12 @@ EPPrimitiveDecorator >> execute: anExecution [
 EPPrimitiveDecorator >> module: aModule [
 
 	decoree module: aModule
+]
+
+{ #category : #accessing }
+EPPrimitiveDecorator >> name [
+
+	^ decoree name
 ]
 
 { #category : #execution }
