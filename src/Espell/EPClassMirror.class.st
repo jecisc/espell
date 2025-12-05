@@ -4,7 +4,7 @@ I am a class mirror object providing basic operations to work on class objects i
 Class {
 	#name : #EPClassMirror,
 	#superclass : #EPMirror,
-	#category : 'Espell-LowLevel-Mirrors'
+	#category : #'Espell-LowLevel-Mirrors'
 }
 
 { #category : #converting }
@@ -75,6 +75,12 @@ EPClassMirror >> compactClassIndex [
 
 	^ backend compactClassIndexOf: self.
 	
+]
+
+{ #category : #compiler }
+EPClassMirror >> compiler [
+
+	^ self class compiler
 ]
 
 { #category : #accessing }

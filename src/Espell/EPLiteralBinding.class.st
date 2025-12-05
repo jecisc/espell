@@ -6,7 +6,7 @@ Class {
 		'objectSpace',
 		'environment'
 	],
-	#category : 'Espell-HighLevel'
+	#category : #'Espell-HighLevel'
 }
 
 { #category : #'as yet unclassified' }
@@ -40,12 +40,6 @@ EPLiteralBinding >> asLiteralInObjectSpace: anObjectSpace [
 	self subclassResponsibility
 ]
 
-{ #category : #'literal resolution' }
-EPLiteralBinding >> beStrict [
-
-	noBindingBlock := [ self error: 'There is no global: ', name asString ].
-]
-
 { #category : #compiling }
 EPLiteralBinding >> emitStore: methodBuilder [
 	methodBuilder storeIntoLiteralVariable: self.
@@ -74,13 +68,6 @@ EPLiteralBinding >> hash [
 	^ self name hash
 ]
 
-{ #category : #'initialize-release' }
-EPLiteralBinding >> initialize [
-
-	super initialize.
-	noBindingBlock := [ objectSpace nilObject ]
-]
-
 { #category : #testing }
 EPLiteralBinding >> isSuperVariable [
 	
@@ -90,6 +77,11 @@ EPLiteralBinding >> isSuperVariable [
 { #category : #testing }
 EPLiteralBinding >> isVariableBinding [
 	^true
+]
+
+{ #category : #testing }
+EPLiteralBinding >> isWritable [
+	^ true
 ]
 
 { #category : #accessing }
