@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'objectSpace'
 	],
-	#category : 'Espell-HighLevel'
+	#category : #'Espell-HighLevel'
 }
 
 { #category : #private }
@@ -16,7 +16,6 @@ EPCrossCompiler >> basicCompileDoItFromSourceCode: sourceCode [
 	highLevelUndefinedObjectClass := env classForClassMirror: objectSpace nilObject basicClass.
 	
 	^ (OpalCompiler new
-		options: #(+ optionFullBlockClosure);
 		noPattern: true;
 		source: sourceCode;
 		encoderClass: EncoderForSistaV1;
@@ -34,7 +33,7 @@ EPCrossCompiler >> basicCompileDoItFromSourceCode: sourceCode [
 EPCrossCompiler >> basicCompileSourceCode: sourceCode forClass: aClass [
 
 	| options |
-	options := #(+ optionFullBlockClosure).
+	options := #( ).
 	aClass className == #Context ifTrue: [ options := options , #(+ optionLongIvarAccessBytecodes) ].
 	
 	^ (OpalCompiler new
